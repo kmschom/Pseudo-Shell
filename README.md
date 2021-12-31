@@ -25,4 +25,4 @@ command.c: This file contains the function definitions for shell commands.
 
 ToDo:
 cp command does not work
-<mv file dir> command does not work
+mv file dir command does not work
