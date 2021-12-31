@@ -24,5 +24,5 @@ string_parser.c: This file contains all the functions for the string_parser head
 command.c: This file contains the function definitions for shell commands.
 
 ToDo:
-   cp command does not work
-   mv file dir command does not work
+cp command does not work
+mv file dir command does not work
