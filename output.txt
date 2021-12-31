@@ -1,0 +1,31 @@
+>>> pwd ; mkdir test ; cd test
+/home/kelly/CIS415/Hmwk1
+>>> sfjlksagjlks;ls; pwd;
+Error! Unrecognized command: sfjlksagjlks
+.. . 
+/home/kelly/CIS415/Hmwk1/test
+>>> cd .. ; cd test ; pwd
+/home/kelly/CIS415/Hmwk1/test
+>>> cp ../input.txt . ; ls ; cat input.txt
+.. . input.txt 
+pwd ; mkdir test ; cd test
+sfjlksagjlks;ls; pwd;
+cd .. ; cd test ; pwd
+cp ../input.txt . ; ls ; cat input.txt
+mv input.txt del.txt ; pwd ; ls
+rm del.txt ; ls
+cd .. ; pwd
+cd cat;
+pwd; exit
+ls
+>>> mv input.txt del.txt ; pwd ; ls
+/home/kelly/CIS415/Hmwk1/test
+.. del.txt . 
+>>> rm del.txt ; ls
+.. . 
+>>> cd .. ; pwd
+/home/kelly/CIS415/Hmwk1
+>>> cd cat;
+Error: No such file or directory
+>>> pwd; exit
+/home/kelly/CIS415/Hmwk1
