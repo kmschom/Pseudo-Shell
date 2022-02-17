@@ -9,9 +9,9 @@ The creator of each file is noted at the top of the file along with it's date of
 
 main.c: This file contains the main function.
    Must be able to start the program in both file and interactive mode.
-   The main function has the following input parameters: argc and argv
+   The main function has the following input parameters: argc and argv.
       argc contains the number of input parameters for the main function.
-      argv contains a 2D array of strings that correspond to the parameters input into the program on execution. (e.g. the filename)
+      argv contains a 2D array of strings that correspond to the parameters input into the program on execution (e.g. the filename).
    Uses a loop that reads commands on a line-by-line basis using getline() from the command line or a file.
    Parses the input string command into tokens using provided header file to identify the commands and their arguments.
    
